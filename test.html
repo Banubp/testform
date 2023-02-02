@@ -18,6 +18,10 @@
   
   <div id="message-box">
     <form id="contact-form" action="https://formsubmit.co/00dc83fb052ba5d88f7940790d3c5081" method="POST">
+      <!--Honeypot-->
+      <input type="text" name="_honey" style="display:none;">
+      <!--disable captcha-->
+      <input type="hidden" name="_captcha" value="false">
       <input type="text" name="name" placeholder="Name">
       <input type="email" name="email" placeholder="Email">
       <input type="text" name="subject" placeholder="Subject">
